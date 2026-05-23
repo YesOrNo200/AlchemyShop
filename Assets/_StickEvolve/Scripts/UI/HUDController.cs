@@ -21,7 +21,7 @@ namespace StickEvolve.UI
         private GameObject _root;
 
         private StickGame _game;
-        public event Action OnPauseClicked;
+        public event System.Action OnPauseClicked;
 
         public static HUDController Create(Canvas canvas, StickGame game)
         {
